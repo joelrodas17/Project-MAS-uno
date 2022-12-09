@@ -1,0 +1,81 @@
+.section-part{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+hr{
+  height: 1.5px;
+  background: #1A36A8;
+  opacity: 100%;
+  border: 0;
+}
+.hr2{
+  background: red;
+  height: 2px;
+  background: #1A36A8;
+}
+.col-caritas{
+  width: 12%;
+  top: 35%;
+  left: 45%;
+  background: white;
+  
+  padding: 0 30px 0 30px;
+}
+.section__title{
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A36A8;
+  line-height: 43.58px;
+}
+.section__subtitle{
+  font-size: 24px;
+  font-weight: 600;
+  color: #595959;
+  span{
+    color: #D43E36;
+    font-weight: 700;
+  }
+}
+.content-pasos{
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A36A8;
+
+  img{
+    padding: 20px 0 20px 0;
+  }
+}
+.pas-text{
+  color: #595959;
+  font-size: 18px;
+  font-weight: 600;
+}
+.paso1{
+  padding-top: 10px;
+}
+.paso-subtitle{
+  padding-bottom: 20px;
+}
+.content-tecnologia{
+  width: 70%;
+  h3{
+    color: #D43E36;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  p{
+    color: #2E2E2E;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .btn-tec{
+    background-color: #1A36A8;
+    border-color: #1A36A8;
+    cursor: pointer;
+  }
+}
+.indicator{
+  bottom: 16%;
+  left: -76%;
+}

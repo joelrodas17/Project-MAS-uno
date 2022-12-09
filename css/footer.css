@@ -1,0 +1,29 @@
+.container-footer {
+  background: #1A36A8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.we-subtitle {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  padding: 7px 0 7px 0;
+}
+
+.we-title {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.icons {
+  padding-bottom: 50px;
+}
+.icons i {
+  color: white;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=footer.css.map */

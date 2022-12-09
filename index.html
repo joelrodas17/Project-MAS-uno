@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mas uno</title>
+  <link rel="shortcut icon" href="img/log/logo.png">
+</head>
+<body>
+
+  <!-- header Section -->
+  <header class="container-fluid">
+
+    <!-- Logo superior -->
+    <div class="row py-4 text-center content-top">
+      <div class="col">
+        <img src="img/log/logo-w.png" alt="">
+      </div>
+    </div>
+
+
+    <div class="row text-center py-5 content-header">
+      <!-- Parte izquierda -->
+      <div class="col-md-12 col-lg-6 col-izquierda ">
+        <div class="row">
+          <!-- Title Cyber -->
+          <div class="col-sm-12 col-md-6 col-lg-12 title-cyber">
+              <div class="row ">
+
+                <div class="col-sm-12 col-md-4 col-lg-3 text-sm-center text-end ps-md-4 group-icon">
+                  <img src="img/group-icons.png" alt="">
+                </div>
+
+                <div class="col-sm-12 col-md-6  col-lg-5 text-sm-center text-start text-white align-self-center text-one ">ES HORA DE</div>
+              </div>
+
+              <div class="row text-sm-center title-cyber">
+
+                <div class="col col-iz__title text-sm-center  text-start">
+                  <div class="row py-4">
+                    <div class="col">
+                      CYBER DAYS
+                    </div>
+                  </div>
+
+                    <div class="row text-mas">
+                      <div class="col">
+                        <span>EN</span> Más uno
+                      </div>
+                    </div>
+                </div>
+                <div class="row text-start sub-cyber">
+                  <div class="col"><img class="" src="img/sub-cyber.png" alt=""></div>
+                </div>
+              </div>
+
+              <div class="row r-fecha text-start text-sm-center">
+                <div class="col">
+                  Del <span>28</span> al <span>30</span> de marzo
+                </div>
+              </div>             
+          </div>
+          <!-- Columna de cupon(md) -->
+          <div class="col-sm-12 col-md-6 col-lg-12 col-cupon align-self-md-center ">
+            <div class="row  text-start img-cupon">
+              <div class="col">
+                <img class="cupon" src="img/cupon.png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Parte derecha -->
+      <div class="col-md-12 col-lg-6 align-self-center col-derecha">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-8 col-lg-10">
+                  <!-- Formulario -->
+                  <form class="formulario row g-3 needs-validation bg-white position-relative text-start rounded-5 px-5 pb-5 pt-4" novalidate>
+                  
+                  <img class="stiker position-absolute" src="img/stiker.png" alt="">
+
+                  <!-- Title -->
+                  <div class="col-md-12 g-0 contentRight__title">
+                    Completa tus Datos
+                    <div class="row ">
+                      <img class="col-5 ms-4 text-center sub-com" src="img/sub-comp.png">
+                    </div>
+                  </div>
+                 
+                  <!-- Nombre -->
+                    <div class="col-md-6">
+                      <label for="validationCustom01" class="form-label">Nombres<span class="text-danger fw-bold">*</span></label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese nombres" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+                  <!-- Apellido -->
+                    <div class="col-md-6">
+                      <label for="validationCustom02" class="form-label">Apellidos<span class="text-danger fw-bold">*</span></label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese apellidos" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+                  <!-- Telefono celular -->
+                    <div class="col-md-6">
+                      <label for="validationCustom02" class="form-label">Telefono Celular<span class="text-danger fw-bold">*</span></label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su número de telefonico" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+                    <!-- Correo Electronico -->
+                    <div class="col-md-6">
+                      <label for="validationCustom02" class="form-label">Correo Electronico<span class="text-danger fw-bold">*</span></label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su correo electrónico"  value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    
+                    <!-- CheckBox -->
+                    <div class="col-md-6">
+                      <label for="validationCustom04" class="form-label">Tus Favoritos</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Pollo,Cerdo,Embutidos...</option>
+                        <option>Pollo</option>
+                        <option>Cerdo</option>
+                        <option>Embutidos</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+
+                    <!-- Catcha -->
+                    <div class="col-md-6">
+                      <img class="catcha" src="img/catcha.png">
+                    </div>
+
+                    <!-- Condiciones -->
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class=" check-bold form-check-label" for="invalidCheck">
+                          Acepto los <span>Términos y políticas de privacidad</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 m-0">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="check-bold form-check-label" for="invalidCheck">
+                          Acepto el <span>Uso de datos personales</span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-re fw-bold" type="submit">Registrarme</button>
+                    </div>
+
+                    <!-- Text down -->
+                    <div class="col-12"><p class="text-center text-final">Aprovecha las mejores ofertas y descuentos en cerdo, congelados, embutidos
+                      <span>y mucho más.</span> No te pierdas de nada estos Cyberdays registrándote y obteniendo grandes descuentos exclusivos.</p>
+                    </div>
+                  </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section part -->
+  <div class="container-fluid section-part">
+    <div class="row">
+      <div class="col py-5  position-relative">
+        <hr>
+        <img class="position-absolute col-caritas" src="img/caritas.png" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col section__title text-center">
+        ¿Como obtengo el descuento por Cyber Days?  <br>
+        <img src="img/Subrayado_section.png" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col section__subtitle text-center py-4">
+        Para adquirir nuestro descuento especial por <span>Cyber Days</span> sigue los siguientes pasos
+      </div>
+    </div>
+    
+    <div class="row text-center align-items-center content-pasos">
+   
+      <!-- Caja-Paso1 -->
+      <div class="col">
+
+        <div class="row">
+          <div class="col">Paso 1</div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="img/paso3.png" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col paso-subtitle">Regístrate</div>
+        </div>
+
+        <div class="row">
+          <div class="col pas-text">Completa el formulario con tus datos personales y acepta los términos.</div>
+        </div>
+      </div>
+
+      <!-- Caja-Paso2 -->
+      <div class="col">
+
+        <div class="row">
+          <div class="col">Paso 2</div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="img/paso2.png" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col paso-subtitle">Recibe un cupón</div>
+        </div>
+
+        <div class="row">
+          <div class="col pas-text">Recibirás un correo electrónico donde podrás ver el cupón de descuento.</div>
+        </div>
+      </div>
+
+      <!-- Caja-Paso3 -->
+      <div class="col">
+
+        <div class="row">
+          <div class="col">Paso 3</div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="img/paso3.png" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col paso-subtitle">Empieza a ahorrar</div>
+        </div>
+
+        <div class="row">
+          <div class="col pas-text">¡Y listo! Podrás usarlo del 28 al 30 de Marzo por compras en nuestra tienda online.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col py-5  position-relative">
+        <hr class="hr2">
+        <img class="position-absolute col-caritas" src="img/caritas.png" alt="">
+      </div>
+    </div>
+
+
+    <div class="row text-center py-5">
+      <div class="col">
+        <img src="img/log/logo.png" alt="">
+      </div>
+    </div>
+
+    <div class="row pb-5">
+      <div class="col section__title text-center">
+        Las mejores tecnologias de Más uno <br>
+        <img src="img/Subrayado_section.png" alt="">
+      </div>
+    </div>
+    
+  </div>
+
+ <!-- Carrusel -->
+ <div id="carouselExampleIndicators" class="carousel slide position-relative carousel-color carousel-dark" data-bs-ride="true">
+  <div class="carousel-indicators  position-absolute indicator">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+
+
+    <div class="container-fluid carousel-item active">
+      <div class="row">
+        <!-- Izquierda -->
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <div class="row d-flex  justify-content-center">
+                <div class="col-6 content-tecnologia ">
+                  <div class="row">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col">
+                          <img src="img/start.png" alt="">
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col title__php"><h3>PHP</h3></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><a class="btn btn-dark px-5 py-3 fw-bold my-4 btn-tec">Ver tecnología</a></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+    
+        <!-- Imagen -->
+        <div class="col-6 text-end p-0">
+          <img class="img-tecnologia" src="img/tecnologia.png" alt="">
+        </div>
+    
+      </div>
+    
+     </div>
+   
+    <div class="container-fluid carousel-item">
+      <div class="row">
+        <!-- Izquierda -->
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="row d-flex  justify-content-center">
+                <div class="col-6 content-tecnologia ">
+                  <div class="row">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col">
+                          <img class="estrella" src="img/start.png" alt="">
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col title__php"><h3>PHP2</h3></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><a class="btn px-5 py-3 fw-bold text-white my-4 btn-tec">Ver tecnología</a></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+    
+        <!-- Imagen -->
+        <div class="col-6 text-end p-0">
+          <img class="img-tecnologia" src="img/tecnologia.png" alt="">
+        </div>
+    
+      </div>
+    
+     </div>
+
+    <div class="container-fluid carousel-item">
+      <div class="row">
+        <!-- Izquierda -->
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="row d-flex  justify-content-center">
+                <div class="col-6 content-tecnologia ">
+                  <div class="row">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col">
+                          <img src="img/start.png" alt="">
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col title__php"><h3>PHP-3</h3></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"><a class="btn btn-primary px-5 py-3 fw-bold my-4 btn-tec">Ver tecnología</a></div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+    
+        <!-- Imagen -->
+        <div class="col-6 text-end p-0">
+          <img class="img-tecnologia" src="img/tecnologia.png" alt="">
+        </div>
+    
+      </div>
+    
+     </div>
+
+  </div>
+</div>
+
+<footer class="container-fluid  container-footer">
+  <div class="row text-center  d-flex justify-content-center align-items-center">
+
+     <div class="col">
+        <div class="row">
+          <div class="col  ">
+            <div class="row ">
+              <div class="col pb-4">
+                <img src="img/log/logo-w.png" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col we-title">Nosotros</div>
+            </div>
+            <div class="row">
+              <div class="col we-subtitle">Somos Mas uno</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="col">
+      <div class="row">
+        <div class="col we-title">Te informamos</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">Preguntas frecuentes</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">Términos y condiciones</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">Medios de pago</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">Políticas de entrega</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">Libro de reclamaciones</div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="img/book.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col">
+      <div class="row">
+        <div class="col we-title  pb-3">Contáctanos</div>
+      </div>
+
+      <div class="row">
+        <div class="col we-title pt-2 pb-5"><i class="fa-solid fa-phone"></i> 00000-0000</div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="row icons d-flex justify-content-center align-items-center ">
+            <div class="col-2"><i class="fa-brands fa-facebook"></i></div>
+            <div class="col-2"><i class="fa-brands fa-twitter"></i></div>
+            <div class="col-2"><i class="fa-brands fa-linkedin"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col we-subtitle">
+          © 2022 Mas uno Lima - Perú
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/aaf2becd21.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
+</body>
+</html>

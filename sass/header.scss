@@ -1,0 +1,91 @@
+.content-top{
+   background: #1A36A8;
+   border-bottom: 1px solid rgba(189, 188, 188, 0.379);
+}
+.content-header{
+  background: #1A36A8;
+}
+.col-iz__title{
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffff;
+  padding-left: 10%;
+  span{
+    font-size: 40px;
+  }
+}
+.text-one{
+  font-size: 24px;
+  font-weight: 500;
+}
+.text-mas{
+  line-height: 24px;
+}
+.sub-cyber{
+  padding-left: 18%;
+}
+.r-fecha{
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffff;
+  padding-left: 9%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  span{
+    font-weight: 700;
+  }
+}
+.img-cupon{
+  padding-left: 9%;
+}
+
+// Right Part
+.formulario{
+  label{
+    font-size: 16px;
+    color: #B7B1A9;
+  }
+  input::placeholder{
+    color: #B7B1A9;
+  }
+  select{
+    color: #1A36A8;
+    border-color: #1A36A8;
+  }
+  .catcha{
+    width: 100%;
+  }
+  .check-bold{
+    font-size: 14px;
+    span{
+      font-weight: 700;
+      color: #1A36A8;
+    }
+  }
+  .btn-re{
+    padding: 24px 80px;
+    background-color: #E3E3E3;
+    border-color: #E3E3E3;
+  }
+  .text-final{
+    font-size: 14px;
+    color: #595959;
+    letter-spacing: 1px;
+    span{
+      color: #D43E36;
+      font-weight: 700;
+    }
+  }
+}
+
+.contentRight__title{
+  font-size: 24px;
+  font-weight: 800;
+  color: #D43E36;
+}
+.stiker{
+  width: 27%;
+  position: absolute;
+  top: -11%;
+  right: -4%;
+}

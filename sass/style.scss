@@ -1,0 +1,11 @@
+@use 'section';
+@use 'footer';
+@use 'header';
+@use 'medias';
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
