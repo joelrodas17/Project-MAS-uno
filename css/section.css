@@ -1,95 +1,95 @@
-.section-part {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-hr {
-  height: 1.5px;
-  background: #1A36A8;
+.row-caritas hr {
   opacity: 100%;
-  border: 0;
-}
-
-.hr2 {
-  background: red;
-  height: 2px;
   background: #1A36A8;
+  height: 4px;
+  width: 100%;
 }
 
-.col-caritas {
-  width: 12%;
-  top: 35%;
-  left: 45%;
+.row-caritas img {
+  width: 8%;
   background: white;
-  padding: 0 30px 0 30px;
+  top: -5%;
+  right: 50%;
 }
 
-.section__title h1 {
+.row-title h1 {
+  font-size: 32px;
   font-weight: 700;
   color: #1A36A8;
-  line-height: 43.58px;
 }
 
-.section__subtitle {
+.row-title p {
   font-size: 24px;
   font-weight: 600;
   color: #595959;
 }
-.section__subtitle span {
-  color: #D43E36;
+
+.row-title p span {
   font-weight: 700;
+  color: #D43E36;
 }
 
-.content-pasos {
+.row-pasos h1 {
   font-size: 32px;
   font-weight: 700;
   color: #1A36A8;
 }
-.content-pasos img {
-  padding: 20px 0 20px 0;
-}
 
-.pas-text {
+.row-pasos p {
+  font-size: 18px;
+  font-weight: 600;
   color: #595959;
-  font-size: 18px;
-  font-weight: 600;
 }
 
-.paso1 {
-  padding-top: 10px;
+.row-pasos img {
+  width: 50%;
 }
 
-.paso-subtitle {
-  padding-bottom: 20px;
+@media (min-width: 377px) and (max-width: 768px) {
+  .row-caritas hr {
+    height: 3px;
+  }
+  .row-caritas img {
+    width: 15%;
+    background: white;
+    top: 15%;
+    right: 42%;
+  }
+  .row-title h1 {
+    font-size: 28px;
+  }
+  .row-title p {
+    font-size: 20px;
+  }
+  .row-pasos h1 {
+    font-size: 24px;
+  }
+  .row-pasos p {
+    font-size: 14px;
+  }
 }
-
-.content-tecnologia {
-  width: 70%;
-}
-.content-tecnologia h3 {
-  color: #D43E36;
-  font-size: 32px;
-  font-weight: 700;
-}
-.content-tecnologia p {
-  color: #2E2E2E;
-  font-size: 18px;
-  font-weight: 600;
-}
-.content-tecnologia .btn-tec {
-  background-color: #1A36A8;
-  border-color: #1A36A8;
-  cursor: pointer;
-}
-
-.indicator {
-  bottom: 16%;
-  left: -76%;
-}
-
-.subrayado__cyber {
-  width: 35%;
+@media (min-width: 0px) and (max-width: 376px) {
+  .row-caritas hr {
+    height: 2px;
+  }
+  .row-caritas img {
+    width: 28%;
+    background: white;
+    top: 23%;
+    right: 38%;
+  }
+  .row-title h1 {
+    font-size: 20px;
+  }
+  .row-title p {
+    font-size: 12px;
+  }
+  .row-pasos h1 {
+    font-size: 18px;
+  }
+  .row-pasos p {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=section.css.map */

@@ -1,84 +1,89 @@
-.section-part{
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-hr{
-  height: 1.5px;
-  background: #1A36A8;
+.row-caritas hr{
   opacity: 100%;
-  border: 0;
-}
-.hr2{
-  background: red;
-  height: 2px;
   background: #1A36A8;
+  height: 4px;
+  width: 100%;
 }
-.col-caritas{
-  width: 12%;
-  top: 35%;
-  left: 45%;
+.row-caritas img{
+  width: 8%;
   background: white;
-  
-  padding: 0 30px 0 30px;
+  top: -5%;
+  right: 50%;
 }
-.section__title h1{
-  // font-size: 32px;
-  font-weight: 700;
-  color: #1A36A8;
-  line-height: 43.58px;
-}
-.section__subtitle{
-  font-size: 24px;
-  font-weight: 600;
-  color: #595959;
-  span{
-    color: #D43E36;
-    font-weight: 700;
-  }
-}
-.content-pasos{
+.row-title h1{
   font-size: 32px;
   font-weight: 700;
   color: #1A36A8;
-
-  img{
-    padding: 20px 0 20px 0;
-  }
 }
-.pas-text{
-  color: #595959;
+.row-title p{
+  font-size: 24px;
+  font-weight: 600;
+  color: #595959
+}
+.row-title p span{
+  font-weight: 700;
+  color: #D43E36;
+}
+.row-pasos h1{
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A36A8;
+}
+.row-pasos p{
   font-size: 18px;
   font-weight: 600;
+  color: #595959;
 }
-.paso1{
-  padding-top: 10px;
+.row-pasos img{
+  width: 50%;
 }
-.paso-subtitle{
-  padding-bottom: 20px;
-}
-.content-tecnologia{
-  width: 70%;
-  h3{
-    color: #D43E36;
-    font-size: 32px;
-    font-weight: 700;
+@media(min-width : 377px) AND (max-width: 768px){
+  .row-caritas hr{
+    height: 3px;
   }
-  p{
-    color: #2E2E2E;
+  .row-caritas img{
+    width: 15%;
+    background: white;
+    top: 15%;
+    right: 42%;
+  }
+  .row-title h1{
+    font-size: 28px;
+  }
+  .row-title p{
+    font-size: 20px;
+  }
+  .row-pasos h1{
+    font-size: 24px;
+
+  }
+  .row-pasos p{
+    font-size: 14px;
+
+  }
+}
+@media(min-width: 0px) AND (max-width: 376px){
+  .row-caritas hr{
+    height: 2px;
+  }
+  .row-caritas img{
+    width: 28%;
+    background: white;
+    top: 23%;
+    right: 38%;
+  }
+  .row-title h1{
+    font-size: 20px;
+  }
+  .row-title p{
+    font-size: 12px;
+  }
+  .row-pasos h1{
     font-size: 18px;
-    font-weight: 600;
+
   }
-  .btn-tec{
-    background-color: #1A36A8;
-    border-color: #1A36A8;
-    cursor: pointer;
+  .row-pasos p{
+    font-size: 12px;
+
   }
-}
-.indicator{
-  bottom: 16%;
-  left: -76%;
-}
-.subrayado__cyber{
-  width: 35%;
 }

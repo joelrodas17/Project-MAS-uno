@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+      .row-caritas hr{
+        opacity: 100%;
+        background: #1A36A8;
+        height: 4px;
+        width: 100%;
+      }
+      .row-caritas img{
+        width: 8%;
+        background: white;
+        top: -5%;
+        right: 50%;
+      }
+      .row-title h1{
+        font-size: 32px;
+        font-weight: 700;
+        color: #1A36A8;
+      }
+      .row-title p{
+        font-size: 24px;
+        font-weight: 600;
+        color: #595959
+      }
+      .row-title p span{
+        font-weight: 700;
+        color: #D43E36;
+      }
+      .row-pasos h1{
+        font-size: 32px;
+        font-weight: 700;
+        color: #1A36A8;
+      }
+      .row-pasos p{
+        font-size: 18px;
+        font-weight: 600;
+        color: #595959;
+      }
+      .row-pasos img{
+        width: 50%;
+      }
+      @media(min-width : 377px) AND (max-width: 768px){
+        .row-caritas hr{
+          height: 3px;
+        }
+        .row-caritas img{
+          width: 15%;
+          background: white;
+          top: 15%;
+          right: 42%;
+        }
+        .row-title h1{
+          font-size: 28px;
+        }
+        .row-title p{
+          font-size: 20px;
+        }
+        .row-pasos h1{
+          font-size: 24px;
+      
+        }
+        .row-pasos p{
+          font-size: 14px;
+
+        }
+      }
+      @media(min-width: 0px) AND (max-width: 376px){
+        .row-caritas hr{
+          height: 2px;
+        }
+        .row-caritas img{
+          width: 28%;
+          background: white;
+          top: 23%;
+          right: 38%;
+        }
+        .row-title h1{
+          font-size: 20px;
+        }
+        .row-title p{
+          font-size: 12px;
+        }
+        .row-pasos h1{
+          font-size: 18px;
+      
+        }
+        .row-pasos p{
+          font-size: 12px;
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid px-5 ">
+        <!-- Caritas emoticon -->
+          <div class="row text-center row-caritas py-5">
+          
+            <div class="col  position-relative">
+              <!-- <hr>   -->   
+              <hr>    
+              <img class="position-absolute align-content-center px-3" src="img/caritas.png" alt="">
+            </div>
+          </div>
+
+          <!-- Title Section part -->
+          <div class="row row-title">
+            <div class="col text-center">
+              <h1>¿Cómo obtengo el descuento por Cyber Days?</h1>
+              <p>Para adquirir nuestro descuento especial por <span>Cyber Days</span> sigue los siguientes pasos</p>
+            </div>
+          </div>
+
+          <!-- Pasos -->
+          <div class="row text-center row-pasos">
+            <!-- Paso 1 -->
+            <div class="col-12 col-md-4">
+              <h1>Paso 1</h1>
+              <img class="py-4" src="img/paso2.png" alt="">
+              <h1>Regístrate</h1>
+              <p class="px-md-1 px-lg-5">Completa el formulario con tus datos personales y acepta los términos.</p>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="col-12 col-md-4">
+              <h1>Paso 2</h1>
+              <img class="py-4" src="img/paso2.png" alt="">
+              <h1>Recibe un cupón</h1>
+              <p class="px-md-1 px-lg-5">Recibirás un correo electrónico donde podrás ver el cupón de descuento.</p>
+            </div>
+
+            <!-- Paso 3 -->
+            <div class="col-12 col-md-4">
+              <h1>Paso 3</h1>
+              <img class="py-4" src="img/paso3.png" alt="">
+              <h1>Empieza a ahorrar</h1>
+              <p class="px-md-1 px-lg-5">¡Y listo! Podrás usarlo del 28 al 30 de Marzo por compras en nuestra tienda online.</p>
+            </div>
+
+          </div>
+
+          <!-- Caritas emoticon -->
+          <div class="row text-center row-caritas py-5">
+          
+            <div class="col  position-relative">
+              <!-- <hr>   -->   
+              <hr>    
+              <img class="position-absolute align-content-center px-3" src="img/caritas.png" alt="">
+            </div>
+          </div>
+
+          <!-- Down Part Section -->
+          <div class="row">
+            <div class="col">
+              Down Part
+            </div>
+          </div>
+
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

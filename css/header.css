@@ -42,10 +42,16 @@ body {
   font-size: 14px;
 }
 
+.text-form__title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #D43E36;
+}
+
 @media (min-width: 0px) and (max-width: 768px) {
   /*Logo*/
   .logoMasuno {
-    width: 10%;
+    width: 20%;
   }
   /*Textos de titulos*/
   .text-titulos {
@@ -56,6 +62,18 @@ body {
     font-size: 26px;
   }
   .text-fecha {
+    font-size: 18px;
+  }
+  .formulario {
+    font-size: 14px;
+  }
+  .form-control::placeholder {
+    font-size: 14px;
+  }
+  .form-select {
+    font-size: 14px;
+  }
+  .text-form__title {
     font-size: 18px;
   }
 }
