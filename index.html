@@ -17,177 +17,160 @@
 <body>
 
   <!-- header Section -->
-  <header class="container-fluid">
-
-    <!-- Logo superior -->
-    <div class="row py-4 text-center content-top">
+  <div class="container-fluid px-5">
+    <div class="row  text-center py-3">
       <div class="col">
-        <img src="img/log/logo-w.png" alt="">
+        <img class="logoMasuno" src="img/log/logo-w.png" alt="">
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-sm-12 col-md-12  col-lg-6 py-5">
 
-    <div class="row text-center py-5 content-header">
-      <!-- Parte izquierda -->
-      <div class="col-md-12 col-lg-6 col-izquierda ">
-        <div class="row">
-          <!-- Title Cyber -->
-          <div class="col-sm-12 col-md-6 col-lg-12 title-cyber">
-              <div class="row ">
 
-                <div class="col-sm-12 col-md-4 col-lg-3 text-sm-center text-end ps-md-4 group-icon">
-                  <img src="img/group-icons.png" alt="">
-                </div>
-
-                <div class="col-sm-12 col-md-6  col-lg-5 text-sm-center text-start text-white align-self-center text-one ">ES HORA DE</div>
+        <div class="row text-white">
+          <!-- Grupo de Iconos -->
+          <div class="col-12 ">
+            <div class="row text-center text-sm-center text-lg-start">
+              <div class="col-md-12 col-lg-3 col-xl-3 col-xxl-2 ">
+                <img src="img/group-icons.png" alt="">
               </div>
-
-              <div class="row text-sm-center title-cyber">
-
-                <div class="col col-iz__title text-sm-center  text-start">
-                  <div class="row py-4">
-                    <div class="col">
-                      CYBER DAYS
-                    </div>
-                  </div>
-
-                    <div class="row text-mas">
-                      <div class="col">
-                        <span>EN</span> Más uno
-                      </div>
-                    </div>
-                </div>
-                <div class="row text-start sub-cyber">
-                  <div class="col"><img class="" src="img/sub-cyber.png" alt=""></div>
-                </div>
-              </div>
-
-              <div class="row r-fecha text-start text-sm-center">
-                <div class="col">
-                  Del <span>28</span> al <span>30</span> de marzo
-                </div>
-              </div>             
-          </div>
-          <!-- Columna de cupon(md) -->
-          <div class="col-sm-12 col-md-6 col-lg-12 col-cupon align-self-md-center ">
-            <div class="row  text-start img-cupon">
-              <div class="col">
-                <img class="cupon" src="img/cupon.png" alt="">
+              <div class="col-md-12 col-lg-9 col-xl-9 col-xxl-10 align-self-center">
+                <p class="text-medio">ES HORA DE</p>
               </div>
             </div>
+
+          </div>
+          <!-- CYBER DAY -->
+          <div class="col-12 text-center text-sm-center text-lg-start">
+            <h1 class="text-titulos">CYBER DAYS</h1>
+          </div>
+
+
+          <div class="col-12 text-center text-sm-center text-lg-start">
+            <h1 class="text-titulos"><span>EN</span> Más uno</h1>
+          </div>
+
+          <div class="col-12 text-center text-sm-center text-lg-start">
+            <p class="text-fecha">Del <span>28</span> al <span>30</span> de marzo</p>
+          </div>
+
+          <div class="col-12 text-center text-sm-center text-lg-start">
+            <img class="img-cupon" src="img/cupon.png" alt="">
           </div>
 
 
         </div>
+
+
       </div>
 
-      <!-- Parte derecha -->
-      <div class="col-md-12 col-lg-6 align-self-center col-derecha">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-md-8 col-lg-10">
-                  <!-- Formulario -->
-                  <form class="formulario row g-3 needs-validation bg-white position-relative text-start rounded-5 px-5 pb-5 pt-4" novalidate>
-                  
-                  <img class="stiker position-absolute" src="img/stiker.png" alt="">
 
-                  <!-- Title -->
-                  <div class="col-md-12 g-0 contentRight__title">
-                    Completa tus Datos
-                    <div class="row ">
-                      <img class="col-5 ms-4 text-center sub-com" src="img/sub-comp.png">
-                    </div>
-                  </div>
-                 
-                  <!-- Nombre -->
-                    <div class="col-md-6">
-                      <label for="validationCustom01" class="form-label">Nombres<span class="text-danger fw-bold">*</span></label>
-                      <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese nombres" value="" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                    </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 py-0 px-0 py-sm-0 px-sm-0 py-md-5 px-md-5">
+        <form class="formulario row g-3 needs-validation bg-white position-relative text-start rounded-5 px-2 py-2 px-sm-2 py-sm-2 px-md-5 py-md-5" novalidate>
+                
 
-                  <!-- Apellido -->
-                    <div class="col-md-6">
-                      <label for="validationCustom02" class="form-label">Apellidos<span class="text-danger fw-bold">*</span></label>
-                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese apellidos" value="" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                    </div>
-
-                  <!-- Telefono celular -->
-                    <div class="col-md-6">
-                      <label for="validationCustom02" class="form-label">Telefono Celular<span class="text-danger fw-bold">*</span></label>
-                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su número de telefonico" value="" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                    </div>
-
-                    <!-- Correo Electronico -->
-                    <div class="col-md-6">
-                      <label for="validationCustom02" class="form-label">Correo Electronico<span class="text-danger fw-bold">*</span></label>
-                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su correo electrónico"  value="" required>
-                      <div class="valid-feedback">
-                        Looks good!
-                      </div>
-                    </div>
-                    
-                    <!-- CheckBox -->
-                    <div class="col-md-6">
-                      <label for="validationCustom04" class="form-label">Tus Favoritos</label>
-                      <select class="form-select" id="validationCustom04" required>
-                        <option selected disabled value="">Pollo,Cerdo,Embutidos...</option>
-                        <option>Pollo</option>
-                        <option>Cerdo</option>
-                        <option>Embutidos</option>
-                      </select>
-                      <div class="invalid-feedback">
-                        Please select a valid state.
-                      </div>
-                    </div>
-
-                    <!-- Catcha -->
-                    <div class="col-md-6">
-                      <img class="catcha" src="img/catcha.png">
-                    </div>
-
-                    <!-- Condiciones -->
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class=" check-bold form-check-label" for="invalidCheck">
-                          Acepto los <span>Términos y políticas de privacidad</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12 m-0">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="check-bold form-check-label" for="invalidCheck">
-                          Acepto el <span>Uso de datos personales</span>
-                        </label>
-                      </div>
-                    </div>
-                    <!-- Button -->
-                    <div class="col-12 text-center">
-                      <button class="btn btn-primary btn-re fw-bold" type="submit">Registrarme</button>
-                    </div>
-
-                    <!-- Text down -->
-                    <div class="col-12"><p class="text-center text-final">Aprovecha las mejores ofertas y descuentos en cerdo, congelados, embutidos
-                      <span>y mucho más.</span> No te pierdas de nada estos Cyberdays registrándote y obteniendo grandes descuentos exclusivos.</p>
-                    </div>
-                  </form>
+          <!-- Title -->
+          <div class="col-12 g-0 contentRight__title">
+            Completa tus Datos
           </div>
-        </div>
+         
+          <!-- Nombre -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <label for="validationCustom01" class="form-label">Nombres<span class="text-danger fw-bold">*</span></label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese nombres" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+          <!-- Apellido -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <label for="validationCustom02" class="form-label">Apellidos<span class="text-danger fw-bold">*</span></label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese apellidos" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+          <!-- Telefono celular -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <label for="validationCustom02" class="form-label">Telefono Celular<span class="text-danger fw-bold">*</span></label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su número de telefonico" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+            <!-- Correo Electronico -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <label for="validationCustom02" class="form-label">Correo Electronico<span class="text-danger fw-bold">*</span></label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su correo electrónico"  value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            
+            <!-- CheckBox -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <label for="validationCustom04" class="form-label">Tus Favoritos</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Pollo,Cerdo,Embutidos...</option>
+                <option>Pollo</option>
+                <option>Cerdo</option>
+                <option>Embutidos</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+            <!-- Catcha -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <img class="catcha" src="img/catcha.png">
+            </div>
+
+            <!-- Condiciones 1 -->
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class=" check-bold form-check-label" for="invalidCheck">
+                  Acepto los <span>Términos y políticas de privacidad</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Condiciones 2 -->
+            <div class="col-12 m-0">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="check-bold form-check-label" for="invalidCheck">
+                  Acepto el <span>Uso de datos personales</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="col-12 text-center">
+              <button class="btn btn-primary btn-re fw-bold" type="submit">Registrarme</button>
+            </div>
+
+            <!-- Text down -->
+            <div class="col-12"><p class="text-center text-final">Aprovecha las mejores ofertas y descuentos en cerdo, congelados, embutidos
+              <span>y mucho más.</span> No te pierdas de nada estos Cyberdays registrándote y obteniendo grandes descuentos exclusivos.</p>
+            </div>
+
+
+          </form>
       </div>
+
+
     </div>
-  </header>
+  </div>
+
 
   <!-- Section part -->
-  <div class="container-fluid section-part">
+  <div class="container-fluid section-part bg-white">
     <div class="row">
       <div class="col py-5  position-relative">
         <hr>
@@ -197,8 +180,8 @@
 
     <div class="row">
       <div class="col section__title text-center">
-        ¿Como obtengo el descuento por Cyber Days?  <br>
-        <img src="img/Subrayado_section.png" alt="">
+        <h1 class=" fs-sm-4 fs-md-2">¿Como obtengo el descuento por Cyber Days?</h1> <br>
+        <img class="subrayado__cyber" src="img/Subrayado_section.png" alt="">
       </div>
     </div>
 
@@ -294,7 +277,7 @@
     <div class="row pb-5">
       <div class="col section__title text-center">
         Las mejores tecnologias de Más uno <br>
-        <img src="img/Subrayado_section.png" alt="">
+        <img class="subrayado__cyber" src="img/Subrayado_section.png" alt="">
       </div>
     </div>
     

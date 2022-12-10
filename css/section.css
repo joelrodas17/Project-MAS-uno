@@ -25,8 +25,7 @@ hr {
   padding: 0 30px 0 30px;
 }
 
-.section__title {
-  font-size: 32px;
+.section__title h1 {
   font-weight: 700;
   color: #1A36A8;
   line-height: 43.58px;
@@ -87,6 +86,10 @@ hr {
 .indicator {
   bottom: 16%;
   left: -76%;
+}
+
+.subrayado__cyber {
+  width: 35%;
 }
 
 /*# sourceMappingURL=section.css.map */
