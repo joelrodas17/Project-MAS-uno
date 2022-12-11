@@ -1,7 +1,5 @@
-.container-footer{
-  background: #1A36A8;
-  padding-top: 80px;
-  padding-bottom: 80px;
+.logo-footer{
+  width: 20%;
 }
 .we-subtitle{
   font-size: 16px;
@@ -20,5 +18,23 @@
   i{
     color: white;
     font-size: 30px;
+  }
+}
+@media(min-width : 377px) AND (max-width: 769px){
+  .we-subtitle{
+    font-size: 14px;
+   
+  }
+  .we-title{
+    font-size: 18px;
+  }
+}
+@media(min-width: 0px) AND (max-width: 376px){
+  .we-subtitle{
+    font-size: 12px;
+   
+  }
+  .we-title{
+    font-size: 16px;
   }
 }

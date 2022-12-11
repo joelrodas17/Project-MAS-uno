@@ -2,10 +2,52 @@
 @use 'footer';
 @use 'header';
 @use 'medias';
+@use '_carrusel';
+
+$white: #ffff;
+
+$carousel-indicator-width:           10px;
+$carousel-indicator-height:          10px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       #E3E3E3;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.carousel-indicators button{
+  border-radius: 50%;
+}
+.carousel-indicators .active{
+  background-color: #1A36A8;
+}
+.carousel-indicators{
+  width: 15%;
+  position: absolute;
+  left: -11%;
+  bottom: 10%;
+}
+
+@media(min-width : 377px) AND (max-width: 769px){
+  .carousel-indicators{
+    left: -8%;
+    bottom: 5%;
+  }
+}
+@media(min-width: 0px) AND (max-width: 376px){
+  .carousel-indicators{
+    width: 25%;
+    left: -1%;
+    bottom: -13%;
+  }
+}
 *{
   font-family: 'Open Sans', sans-serif;
 }
 body,html{
   margin: 0;
   padding: 0;
+  background: #1A36A8;
 }
